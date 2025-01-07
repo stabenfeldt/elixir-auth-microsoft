@@ -168,7 +168,7 @@ to confirm that login with Azure was successful.
 ### 3.2 Create `welcome` template 📝
 
 Create a new file with the following path:
-`lib/app_web/templates/page/welcome.html.eex`
+`lib/app_web/templates/page/welcome.html.heex`
 
 And type (_or paste_) the following code in it:
 ```html
@@ -182,7 +182,7 @@ And type (_or paste_) the following code in it:
 ```
 
 > **Note**: we are placing the
->  `welcome.html.eex` template
+>  `welcome.html.heex` template
 > in the `template/page` directory to save having to create
 > any more directories and view files.
 > You are free to organise your code however you prefer.
@@ -249,9 +249,9 @@ def index(conn, _params) do
 end
 ```
 
-### 5.1 Update the `page/index.html.eex` Template
+### 5.1 Update the `page/index.html.heex` Template
 
-Open the `/lib/app_web/templates/page/index.html.eex` file
+Open the `/lib/app_web/templates/page/index.html.heex` file
 and type the following code:
 
 ```html
